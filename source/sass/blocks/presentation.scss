@@ -1,0 +1,60 @@
+.presentation {
+  position: relative;
+  padding-left: 35px;
+  padding-right: 35px;
+  display: flex;
+  justify-content: flex-start;
+  height: 701px;
+
+  &::before {
+      content: "";
+      width: 496px;
+      height: 944px;
+      position: absolute;
+      left: 504px;
+      top: -167px;
+      z-index: 100;
+      mix-blend-mode: normal;
+      transform: matrix(-1,0,0,1,0,0);
+      background: linear-gradient(180deg,rgba(234,227,212,0) 0%,#eae3d4 100%);
+      border-radius: 0 580px 508px 0;
+  }
+}
+
+.presentation__background {
+  position: absolute;
+  width: 503px;
+  height: 805px;
+  top: -66px;
+  left: 662px;
+  background-image: url("../img/watch_main.png");
+  transform: rotate(-0.18deg);
+  z-index: 200;
+}
+
+.presentation__background--price {
+  position: absolute;
+  top: 138px;
+  font-size: 16px;
+  line-height: 22px;
+  color: #1B1A17;
+}
+
+.presentation__background--size {
+  left: 449px;
+  top: 636px;
+  position: absolute;
+  min-width: 187px;
+  font-size: 16px;
+  line-height: 22px;
+  color: #1B1A17;
+}
+
+.presentation__block {
+  margin-left: 180px;
+  width: 380px;
+  position: absolute;
+  top: 180px;
+  z-index: 200;
+}
+

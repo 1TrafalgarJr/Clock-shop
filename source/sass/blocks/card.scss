@@ -1,0 +1,29 @@
+.card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.card__average {
+  width: 370px;
+  height: 467px;
+  position: relative;
+  background: #FDFDFB;
+  margin-bottom: 40px;
+}
+
+.card__big {
+  width: 760px;
+  height: 467px;
+  position: relative;
+  background: #FDFDFB;
+  margin-bottom: 40px;
+}
+
+.card__small {
+  width: 565px;
+  height: 223px;
+  position: relative;
+  background: #FDFDFB;
+  margin-bottom: 40px;
+}
