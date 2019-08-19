@@ -1,17 +1,14 @@
 .index {
   position: relative;
-  padding: 79px 98px 35px 98px;
+  padding: 79px 0 35px 0;
+  background-color: white;
+  z-index: 1000;
+  width: 1366px;
+  margin: 0 auto;
+}
 
-  &::before {
-    content: "";
-    position: absolute;
-    background: #fff;
-    width: 331px;
-    height: 76px;
-    top: 0;
-    left: 691px;
-    z-index: 300;
-  }
+.index__a {
+  padding: 0 98px;
 }
 
 .index__h2 {
@@ -33,8 +30,18 @@
   color: #444240;
   display: flex;
   justify-content: flex-end;
+  height: 25px;
+  position: relative;
+
+  &:before {
+    content: "";
+    border-bottom: 1px solid #C4C0B6;
+    position: absolute;
+    top: 22px;
+    width: 100px;
+  }
 }
 
 .index__catalog {
-  padding-top: 30px;
+  padding: 30px 98px 0 98px;
 }

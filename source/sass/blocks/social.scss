@@ -1,7 +1,7 @@
 .social__vertical {
   box-sizing: border-box;
   position: absolute;
-  top: 346px;
+  top: 317px;
   width: 18px;
   height: 75px;
 }
@@ -12,4 +12,14 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: space-between;
+}
+
+.social__list {
+  width: 93px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.social__link {
+  font-size: 0;
 }

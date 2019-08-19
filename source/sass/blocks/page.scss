@@ -9,11 +9,19 @@
   flex-wrap: wrap;
   justify-content: space-between;
   position: relative;
+  width: 1366px;
+  margin: 0 auto;
 }
 
 .page__menu {
   position: absolute;
+  z-index: 2000;
+}
+
+.page__menu--list {
+  position: absolute;
   background-image: url("../img/menu.svg");
+  background-repeat: no-repeat;
   width: 18px;
   height: 18px;
   top: 4px;
